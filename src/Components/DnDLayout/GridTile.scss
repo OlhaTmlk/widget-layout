@@ -2,7 +2,6 @@
   z-index: 1;
 }
 .grid-tile {
-  background: var(--pf-t--global--background--color--100);
   position: relative;
   height: 100%;
   overflow: hidden;
@@ -24,7 +23,6 @@
     &__header {
       padding: var(--pf-t--global--spacer--md);
       padding-bottom: var(--pf-t--global--spacer--sm);
-      background: var(--pf-t--global--background--color--200);
       .widg-c-icon--header {
         .service-icon {
           height: 28px;
@@ -51,7 +49,7 @@
       padding-left: var(--pf-t--global--spacer--xs);
     }
     &__body {
-      background: var(--pf-t--global--background--color--100);
+      // Card body inherits background from PatternFly Card default
     }
   }
 }
